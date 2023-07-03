@@ -1,0 +1,690 @@
+!SESSION 2023-07-01 09:46:21.258 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:28.073
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:28.668
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:28.768
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:28.776
+!MESSAGE Initializing Java Language Server 1.7.0.202112160206
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.018
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.125
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.357
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.315
+!MESSAGE Workspace initialized in 3300ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.333
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.398
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.418
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.424
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.462
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.536
+!MESSAGE Creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:32.591
+!MESSAGE Finished creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 09:46:32.769
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-07-01 09:46:32.770
+!MESSAGE Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-07-01 09:46:32.777
+!MESSAGE '/home/g2210030003' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:34.424
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:35.883
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:35.934
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:36.469
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:36.478
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:36.507
+!MESSAGE Validated 1. Took 1677 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.594
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.606
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.725
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.744
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 4 566 2023-07-01 09:48:11.878
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2023-07-01 11:06:07.927 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:15.484
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:16.474
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:16.608
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:16.615
+!MESSAGE Initializing Java Language Server 1.7.0.202112160206
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:16.878
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.549
+!MESSAGE Workspace initialized in 2823ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.620
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.661
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.667
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.701
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.725
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:19.780
+!MESSAGE Creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:20.035
+!MESSAGE Finished creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:20.248
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:20.252
+!MESSAGE Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-07-01 11:06:20.253
+!MESSAGE '/home/g2210030003' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:20.278
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:20.365
+!MESSAGE Creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:20.521
+!MESSAGE Finished creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:20.805
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:20.810
+!MESSAGE Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-07-01 11:06:20.810
+!MESSAGE '/home/g2210030003' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:22.440
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:23.588
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:23.650
+!MESSAGE Creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:23.879
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:23.885
+!MESSAGE TODO(developer): Replace these variables before running the sample. is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:23.887
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:23.928
+!MESSAGE Validated 1. Took 1036 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:24.010
+!MESSAGE Finished creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:24.068
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:24.070
+!MESSAGE Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-07-01 11:06:24.071
+!MESSAGE '/home/g2210030003' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:24.316
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:24.670
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:24.678
+!MESSAGE Creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:24.750
+!MESSAGE Finished creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:24.842
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:24.844
+!MESSAGE Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-07-01 11:06:24.845
+!MESSAGE '/home/g2210030003' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.647
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.654
+!MESSAGE TODO(developer): Replace these variables before running the sample. is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.654
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.010
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.011
+!MESSAGE The static method translateText(String) from the type TranslateText should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.011
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.018
+!MESSAGE Validated 2. Took 1297 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.040
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.078
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.106
+!MESSAGE Creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.220
+!MESSAGE Finished creating the Java project g2210030003_cd1efa4b
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:26.326
+!MESSAGE Failed to create invisible project
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	... 25 more
+!SUBENTRY 1 org.eclipse.jdt.ls.core 4 0 2023-07-01 11:06:26.328
+!MESSAGE Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.
+	at org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)
+	at org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2023-07-01 11:06:26.330
+!MESSAGE '/home/g2210030003' is not a valid location for linked resources.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.353
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.364
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.395
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.424
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.428
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.931
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.932
+!MESSAGE TODO(developer): Replace these variables before running the sample. is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:26.937
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.086
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.086
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.205
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.217
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.224
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.235
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.241
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.368
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.373
+!MESSAGE The static method translateText(String) from the type TranslateText should be accessed in a static way is of type NonStaticAccessToStaticMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.375
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:27.380
+!MESSAGE Validated 3. Took 936 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:31.853
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:31.913
+!MESSAGE >> exit

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/com/example/demo/Application.java</name>
+			<type>1</type>
+			<location>//home/g2210030003/spring-vision/src/main/java/com/example/demo/Application.java</location>
+		</link>
+		<link>
+			<name>src/com/example/demo/TranslateText.java</name>
+			<type>1</type>
+			<location>//home/g2210030003/spring-vision/src/main/java/com/example/demo/TranslateText.java</location>
+		</link>
+		<link>
+			<name>src/com/example/demo/VisionController.java</name>
+			<type>1</type>
+			<location>//home/g2210030003/spring-vision/src/main/java/com/example/demo/VisionController.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

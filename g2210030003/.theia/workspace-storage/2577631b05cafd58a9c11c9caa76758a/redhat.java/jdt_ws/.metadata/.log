@@ -1,0 +1,2130 @@
+!SESSION 2023-07-01 09:46:21.236 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:28.297
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.119
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.211
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.244
+!MESSAGE Initializing Java Language Server 1.7.0.202112160206
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.474
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-debug-0.32.1/extension/server/com.microsoft.java.debug.plugin-0.30.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.485
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-dependency-0.18.6/extension/server/com.microsoft.jdtls.ext.core-0.18.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.512
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/com.microsoft.java.test.plugin-0.29.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.521
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.535
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.546
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.557
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.565
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.580
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.595
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.603
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.620
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.631
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.646
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.654
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.666
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.673
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:29.683
+!MESSAGE Installed reference:file:/google/devshell/editor/theia/plugins/vscode-maven-0.30.1/extension/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.27.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:30.980
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/com.microsoft.java.test.plugin-0.29.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:30.991
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit5.runtime_1.0.900.v20200513-0617.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:30.992
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:30.994
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.params_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:30.998
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.vintage.engine_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.007
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.eclipse.jdt.junit4.runtime_1.1.1200.v20200214-0716.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.008
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.engine_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.009
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.runner_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.010
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.apiguardian_1.1.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.010
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.suite.api_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.014
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.api_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.029
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.opentest4j_1.2.0.v20190826-0900.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.032
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.commons_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.041
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.platform.launcher_1.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.045
+!MESSAGE Started reference:file:/google/devshell/editor/theia/plugins/vscjava.vscode-java-test-0.29.0/extension/server/org.junit.jupiter.migrationsupport_5.6.0.v20200203-2009.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.085
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.088
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.089
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.094
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.094
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.095
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.095
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.096
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.097
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.098
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.132
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.148
+!MESSAGE Wait for AutoBuildOffJob end 8ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.149
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.180
+!MESSAGE Started org.eclipse.m2e.core 7ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.181
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.182
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:31.332
+!MESSAGE Started org.eclipse.buildship.core 151ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:33.902
+!MESSAGE LoadingGradleVersionJob finished 2563ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:33.977
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:34.082
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:34.628
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:46:38.322
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:07.705
+!MESSAGE Workspace initialized in 93799ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:08.268
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:08.461
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:08.501
+!MESSAGE >> New configuration: {java={home=/usr/lib/jvm/java-17-openjdk-amd64, jdt={ls={vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=null, runtimes=[]}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}, insertSpaces=true, tabSize=4.0}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, .git], exportJar={targetPath=${workspaceFolder}/${workspaceFolderBasename}.jar}}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Hybrid}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, numericPrecision=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, onBuildFailureProceed=false, console=integratedTerminal, exceptionBreakpoint={skipClasses=[]}, stepping={skipClasses=[], skipSynthetics=false, skipStaticInitializers=false, skipConstructors=false}, jdwp={limitOfVariablesPerJdwpRequest=100.0, requestTimeout=3000.0}, vmArgs=}}, silentNotification=false, dependency={showMembers=false, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, test={report={showAfterExecution=onFailure, position=sideView}, editor={enableShortcuts=true}, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:08.534
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:09.327
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:10.396
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.557
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.558
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.562
+!MESSAGE Validated 1. Took 1003 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.581
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.589
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.608
+!MESSAGE >> workspace/executeCommand java.project.getAll
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.647
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.657
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.719
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.742
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:11.752
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:12.166
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY java-debug 1 0 2023-07-01 09:48:12.175
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:14.881
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 09:48:49.445
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:28.904
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:28.930
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:28.950
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:29.009
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:29.111
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:29.423
+!MESSAGE begin problem for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:29.427
+!MESSAGE 0 problems reported for /DemoApplication.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:29.439
+!MESSAGE Validated 1. Took 105 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:29.674
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:07:36.198
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:26.825
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:26.961
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:26.965
+!MESSAGE >> workspace/executeCommand java.project.listSourcePaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:26.971
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.004
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.065
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.219
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.230
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.230
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.264
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.271
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.447
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.459
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:27.746
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:28.195
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:28.645
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:36.456
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:36.458
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:36.746
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:36.746
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:36.747
+!MESSAGE Validated 1. Took 290 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.061
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.090
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.094
+!MESSAGE >> workspace/executeCommand java.project.listSourcePaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.121
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.132
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.301
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.388
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.397
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.398
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.406
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.413
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.643
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.647
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.871
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.873
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.879
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.889
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.889
+!MESSAGE 0 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:52.890
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:53.376
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:09:53.738
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.167
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.205
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.212
+!MESSAGE >> workspace/executeCommand java.project.listSourcePaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.226
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.234
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.402
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.433
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.466
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.481
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.523
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.527
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.659
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.664
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.861
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.936
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.936
+!MESSAGE 0 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.955
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.955
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.963
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.963
+!MESSAGE 0 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:21.964
+!MESSAGE Validated 3. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:22.180
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:22.412
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:22.803
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:25.280
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.070
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.121
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.124
+!MESSAGE >> workspace/executeCommand java.project.listSourcePaths
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.131
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.140
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.303
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.350
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.373
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.373
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.428
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.434
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.603
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.606
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.743
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.896
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.896
+!MESSAGE 0 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.906
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.907
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.914
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.915
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.920
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.920
+!MESSAGE 0 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:39.921
+!MESSAGE Validated 4. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:40.340
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:40.710
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:46.618
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.126
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.399
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.403
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.406
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.415
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.418
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.575
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.639
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.642
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.748
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.845
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.849
+!MESSAGE 0 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.877
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:48.882
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.034
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.035
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.099
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.099
+!MESSAGE 0 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.100
+!MESSAGE Validated 4. Took 278 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.379
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:10:49.833
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:01.277
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:02.925
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:04.386
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.119
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.453
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.456
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.457
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.523
+!MESSAGE Reconciled 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.526
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.558
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.635
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.694
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:05.700
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.441
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.449
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.453
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.627
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.801
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.803
+!MESSAGE 0 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.823
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.824
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.853
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.945
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:06.945
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.077
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.081
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.082
+!MESSAGE Validated 4. Took 608 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.410
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.503
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.537
+!MESSAGE >> java/classFileContents
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.606
+!MESSAGE ClassFile contents request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.982
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.983
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.989
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:07.990
+!MESSAGE 0 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.007
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.007
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.044
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.045
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.101
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.101
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.102
+!MESSAGE Validated 4. Took 148 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:08.435
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:14.383
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:15.476
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:16.735
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:17.631
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.047
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.290
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.293
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.295
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.356
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.359
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.467
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.526
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:18.530
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.033
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.034
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.050
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.051
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.075
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.075
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.155
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.157
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.157
+!MESSAGE Validated 4. Took 351 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.280
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.442
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.504
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:19.667
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:20.759
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.394
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.394
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.404
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.408
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.469
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.471
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.597
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.598
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.602
+!MESSAGE Validated 4. Took 442 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.748
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:21.926
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:22.506
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:11:22.518
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:12:14.012
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:12:27.586
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:12:27.627
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:21.706
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:23.418
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:27.500
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:27.617
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:40.461
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:58.935
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:13:59.748
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:00.388
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:00.636
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:02.197
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:03.717
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:04.632
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:04.868
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:14.722
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:14.913
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:16.281
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:16.298
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:18.991
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:19.518
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:29.594
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:29.602
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:30.002
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:31.178
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:31.365
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:42.427
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:42.522
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:43.698
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:14:43.754
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:38.818
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:39.477
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:39.481
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:39.485
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:41.045
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:41.046
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:41.052
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:15:41.054
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:18:39.057
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:20:13.459
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:20:13.474
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:22:27.353
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:22:29.415
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:22:29.588
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:22:29.985
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:22:30.081
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.413
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.426
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.432
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.481
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.578
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.610
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:08.660
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.049
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.052
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.062
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.065
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.097
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.097
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.122
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.122
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.195
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.196
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.200
+!MESSAGE Validated 5. Took 268 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.385
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.450
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:09.524
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:13.779
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:26.194
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:34.379
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:34.798
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:34.803
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:35.311
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:35.326
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:43.063
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:44.530
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:44.543
+!MESSAGE >> workspace/executeCommand java.project.getSettings
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:48.844
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:48.898
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:49.612
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:51.197
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:51.276
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:52.270
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:23:52.306
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:35.331
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:35.335
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:36.516
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:36.525
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:37.842
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:37.876
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:38.029
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:47.514
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:47.521
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:47.792
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:48.660
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:49.321
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.324
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.328
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.333
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.334
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.335
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.335
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.370
+!MESSAGE Reconciled 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.372
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.374
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.375
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.510
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.567
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:50.570
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.362
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.387
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.387
+!MESSAGE 58 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.407
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.407
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.428
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.429
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.441
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.441
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.506
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.507
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.508
+!MESSAGE Validated 5. Took 736 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.641
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.730
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.796
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:51.841
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.351
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.393
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.454
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.547
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.604
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.616
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:52.924
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.291
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.291
+!MESSAGE 58 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.313
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.313
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.351
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.366
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.385
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.386
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.428
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.429
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.433
+!MESSAGE Validated 5. Took 528 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.437
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.438
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.439
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.442
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.448
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.683
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.722
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.776
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.913
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.968
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.969
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.978
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:53.979
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.011
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.011
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.026
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.026
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.068
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.069
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.071
+!MESSAGE Validated 5. Took 222 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.183
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.303
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.380
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:54.403
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.043
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.593
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.593
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.602
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.602
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.618
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.619
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.641
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.641
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.681
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.682
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.682
+!MESSAGE Validated 5. Took 188 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.935
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:55.994
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:24:56.029
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:05.039
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:05.889
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:05.957
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:05.961
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.558
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.563
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.564
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.565
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.574
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.582
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.584
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.736
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.790
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:06.855
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.092
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.138
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.138
+!MESSAGE 2 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.146
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.146
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.165
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.167
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.185
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.187
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.223
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.224
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.224
+!MESSAGE Validated 5. Took 194 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.242
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.254
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.514
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.543
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.570
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:07.779
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.065
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.356
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.361
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.420
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.544
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.609
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.753
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.761
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.818
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.946
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:09.996
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.118
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.128
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.313
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.361
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.454
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.464
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.522
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.644
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:10.690
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.068
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.068
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.081
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.081
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.114
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.114
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.123
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.123
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.157
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.157
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.161
+!MESSAGE Validated 5. Took 187 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.447
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.450
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.451
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.458
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.459
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.482
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.505
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.640
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.701
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.702
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.947
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.947
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.954
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.954
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.982
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.982
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.988
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:11.989
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.046
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.047
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.047
+!MESSAGE Validated 5. Took 188 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.285
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.317
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.385
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.440
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:12.715
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:13.501
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:13.996
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:13.997
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.010
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.012
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.031
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.031
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.042
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.042
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.093
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.093
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.096
+!MESSAGE Validated 5. Took 194 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.356
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.375
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:14.427
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:22.985
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:26.885
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.430
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.434
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.756
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.759
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.761
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.762
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.762
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.819
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.822
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.825
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.938
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:27.989
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.121
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.187
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.200
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2023-07-01 10:25:28.212
+!MESSAGE Unable to load IDecompiler class for jarFileContentProvider
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.460
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.460
+!MESSAGE 2 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.476
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.477
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.507
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.514
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.550
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.550
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.646
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.647
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.658
+!MESSAGE Validated 5. Took 380 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.742
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.907
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:28.987
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:29.050
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:29.850
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:29.867
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:29.894
+!MESSAGE Reconciled 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.035
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.081
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.200
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.705
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.705
+!MESSAGE 2 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.729
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.730
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.751
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.751
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.764
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.764
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.818
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.818
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.820
+!MESSAGE Validated 5. Took 219 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.831
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.913
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.919
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:30.975
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.113
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.121
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.162
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.174
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.177
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.495
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.495
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.500
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.500
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.519
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.520
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.526
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.527
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.559
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.560
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.560
+!MESSAGE Validated 5. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.852
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.920
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.950
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:31.955
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:32.198
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:32.265
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:32.745
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.230
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.334
+!MESSAGE begin problem for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.339
+!MESSAGE 1 problems reported for /VisionController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.346
+!MESSAGE begin problem for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.346
+!MESSAGE 0 problems reported for /application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.371
+!MESSAGE begin problem for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.385
+!MESSAGE 0 problems reported for /Application.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.391
+!MESSAGE begin problem for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.392
+!MESSAGE 4 problems reported for /DemoApplicationTests.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.418
+!MESSAGE begin problem for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.425
+!MESSAGE 1 problems reported for /TranslateText.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.427
+!MESSAGE Validated 5. Took 232 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.706
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.737
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:33.778
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:25:48.591
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:31:34.284
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 10:31:40.928
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:02:23.607
+!MESSAGE >> shutdown
+!SESSION 2023-07-01 11:06:08.498 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.7
+java.vendor=Debian
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-07-01 11:06:13.977
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:17.170
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.191
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.437
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.452
+!MESSAGE Initializing Java Language Server 1.7.0.202112160206
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.652
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.653
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.653
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.653
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.654
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.654
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.655
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.669
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.670
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.670
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.720
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:18.721
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:20.930
+!MESSAGE ProjectRegistryRefreshJob finished 2209ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:20.931
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:21.073
+!MESSAGE Started org.eclipse.buildship.core 142ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:21.122
+!MESSAGE LoadingGradleVersionJob finished 43ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:21.244
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.344
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.632
+!MESSAGE Workspace initialized in 4507ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.726
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.831
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.926
+!MESSAGE >> New configuration: {java={home=/usr/lib/jvm/java-17-openjdk-amd64, jdt={ls={vmargs=-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null, globalSettings=null, notCoveredPluginExecutionSeverity=warning}, workspaceCacheLimit=null, runtimes=[]}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, home=null, java={home=null}, offline={enabled=false}, arguments=null, jvmArguments=null, user={home=null}}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false}, maven={downloadSources=false, updateSnapshots=false}, eclipse={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}, insertSpaces=true, tabSize=4.0}, saveActions={organizeImports=false}, project={referencedLibraries=[lib/**/*.jar], importOnFirstTimeStartup=automatic, importHint=true, resourceFilters=[node_modules, .git], exportJar={targetPath=${workspaceFolder}/${workspaceFolderBasename}.jar}}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, recommendations={dependency={analytics={show=true}}}, completion={maxResults=0.0, enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}, insertionLocation=afterCursor}, selectionRange={enabled=true}, showBuildStatusOnStart={enabled=notification}, server={launchMode=Hybrid}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, imports={gradle={wrapper={checksums=[]}}}, templates={fileHeader=[], typeComment=[]}, references={includeAccessors=true, includeDecompiledSources=true}, typeHierarchy={lazyLoad=false}, settings={url=null}, symbols={includeSourceMethodDeclarations=false}, quickfix={showAt=line}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, numericPrecision=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, onBuildFailureProceed=false, console=integratedTerminal, exceptionBreakpoint={skipClasses=[]}, stepping={skipClasses=[], skipSynthetics=false, skipStaticInitializers=false, skipConstructors=false}, jdwp={limitOfVariablesPerJdwpRequest=100.0, requestTimeout=3000.0}, vmArgs=}}, silentNotification=false, dependency={showMembers=false, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, test={report={showAfterExecution=onFailure, position=sideView}, editor={enableShortcuts=true}, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:25.933
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:28.627
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:31.628
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:31.664
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:31.852
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-07-01 11:06:31.868
+!MESSAGE Reconciled 3. Took 0 ms

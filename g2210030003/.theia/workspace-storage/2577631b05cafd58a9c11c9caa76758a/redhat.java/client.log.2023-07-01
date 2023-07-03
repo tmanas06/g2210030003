@@ -1,0 +1,283 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/g2210030003/.theia/globalStorage/redhat.java/1.2.0/config_ss_linux -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-07-01 09:46:20.281'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/g2210030003/.theia/globalStorage/redhat.java/1.2.0/config_linux -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-07-01 09:46:20.526'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2023-07-01 09:46:20.757'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-07-01 09:46:20.781'
+}
+{
+  message: '[Error - 9:46:32 AM] Jul 1, 2023, 9:46:32 AM Failed to create invisible project\n' +
+    "Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    "org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    "Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.\n" +
+    '\tat org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)\n' +
+    '\t... 25 more\n',
+  level: 'info',
+  timestamp: '2023-07-01 09:46:32.905'
+}
+{
+  message: '[Error - 9:48:11 AM] Jul 1, 2023, 9:48:11 AM Workspace was not properly initialized or has already shutdown.',
+  level: 'info',
+  timestamp: '2023-07-01 09:48:11.880'
+}
+{
+  message: '[Error - 9:48:12 AM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2023-07-01 09:48:12.377'
+}
+{
+  message: '[Error - 10:25:28 AM] Jul 1, 2023, 10:25:28 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2023-07-01 10:25:28.214'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/g2210030003/.theia/globalStorage/redhat.java/1.2.0/config_ss_linux -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:06.767'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java -jar /google/devshell/editor/theia/plugins/redhat.java-1.2.0/extension/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/g2210030003/.theia/globalStorage/redhat.java/1.2.0/config_linux -data /home/g2210030003/.theia/workspace-storage/2577631b05cafd58a9c11c9caa76758a/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:07.347'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:07.392'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:07.833'
+}
+{
+  message: '[Error - 11:06:20 AM] Jul 1, 2023, 11:06:20 AM Failed to create invisible project\n' +
+    "Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    "org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    "Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.\n" +
+    '\tat org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)\n' +
+    '\t... 25 more\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:20.261'
+}
+{
+  message: '[Error - 11:06:20 AM] Jul 1, 2023, 11:06:20 AM Failed to create invisible project\n' +
+    "Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    "org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    "Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.\n" +
+    '\tat org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)\n' +
+    '\t... 25 more\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:20.818'
+}
+{
+  message: '[Error - 11:06:24 AM] Jul 1, 2023, 11:06:24 AM Failed to create invisible project\n' +
+    "Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    "org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    "Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.\n" +
+    '\tat org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)\n' +
+    '\t... 25 more\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:24.081'
+}
+{
+  message: '[Error - 11:06:24 AM] Jul 1, 2023, 11:06:24 AM Failed to create invisible project\n' +
+    "Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    "org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    "Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.\n" +
+    '\tat org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)\n' +
+    '\t... 25 more\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:24.850'
+}
+{
+  message: '[Error - 11:06:26 AM] Jul 1, 2023, 11:06:26 AM Failed to create invisible project\n' +
+    "Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    "org.eclipse.core.runtime.CoreException: Failed to create linked resource from '/home/g2210030003' to the invisible project 'g2210030003_cd1efa4b'.\n" +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:343)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.tryUpdateClasspath(SyntaxDocumentLifeCycleHandler.java:104)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.resolveCompilationUnit(SyntaxDocumentLifeCycleHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleOpen(BaseDocumentLifeCycleHandler.java:350)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$5.run(BaseDocumentLifeCycleHandler.java:310)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didOpen(BaseDocumentLifeCycleHandler.java:307)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.didOpen(SyntaxLanguageServer.java:264)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    "Caused by: org.eclipse.core.internal.resources.ResourceException: '/home/g2210030003' is not a valid location for linked resources.\n" +
+    '\tat org.eclipse.core.internal.resources.Resource.assertLinkRequirements(Resource.java:170)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ProjectUtils.createInvisibleProjectIfNotExist(ProjectUtils.java:327)\n' +
+    '\t... 25 more\n',
+  level: 'info',
+  timestamp: '2023-07-01 11:06:26.364'
+}
